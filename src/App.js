@@ -4,8 +4,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a className='main' href='#'>Strona główna</a>
-        <a href='#'>Animacje</a>
+        <a className='main' href='#'>O mnie</a>
+        <a href='#'>Multimedia i Animacje</a>
         <a href='#'>Grafika cyfrowa</a>
         <a href='#'>Projektowanie graficzne</a>
         <a href='#'>Identyfikacja wizualna</a>
