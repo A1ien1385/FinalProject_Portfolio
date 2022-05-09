@@ -1,13 +1,30 @@
+.baner
+{
+    font-family: 'Dancing Script';
+    .img
+    {
+     background-image: url('../img/baner.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100vw;
+     height: 45vh;
+    }
+}
+
+
 .App-header
 {
     background-color: $bg-color;
     -webkit-box-shadow: 0px 0px 47px 4px rgba(255, 153, 224, 0.8);
     -moz-box-shadow: 0px 0px 47px 4px rgba(255, 153, 224, 0.8);
     box-shadow: 0px 0px 47px 4px rgba(255, 153, 224, 0.8);
+    font-family: 'Dancing Script';
+
+   
 
     a 
     {
-    font-family: 'Dancing Script';
     color: lighten($color: $base-color, $amount: 25%);
     text-decoration: none;
     text-align: center;

@@ -6,8 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const nav = ReactDOM.createRoot(document.getElementById('nav'));
+nav.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>

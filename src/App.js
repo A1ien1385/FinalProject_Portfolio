@@ -1,8 +1,10 @@
 import './scss/main.scss';
 
+
 function App() {
   return (
     <div className="App">
+      <div className='baner'><div className='img'></div> </div>
       <header className="App-header">
         <a className='main' href='#'>O mnie</a>
         <a href='#'>Multimedia i Animacje</a>
