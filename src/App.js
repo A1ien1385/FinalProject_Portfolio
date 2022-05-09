@@ -7,7 +7,7 @@ function App() {
       <div className='baner'><div className='img'></div> </div>
       <header className="App-header">
         <a className='main' href='#'>O mnie</a>
-        <a href='#'>Multimedia i Animacje</a>
+        <a href='#'>Multimedia i animacje</a>
         <a href='#'>Grafika cyfrowa</a>
         <a href='#'>Projektowanie graficzne</a>
         <a href='#'>Identyfikacja wizualna</a>
