@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Nav from './Nav';
+import AboutMe from './aboutMe'
 import reportWebVitals from './reportWebVitals';
 
 
@@ -9,11 +10,15 @@ import reportWebVitals from './reportWebVitals';
 const nav = ReactDOM.createRoot(document.getElementById('nav'));
 nav.render(
   <React.StrictMode>
-    <App />
+    <Nav />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+const aboutMe = ReactDOM.createRoot(document.getElementById('aboutMe'));
+aboutMe.render(
+  <React.StrictMode>
+    <AboutMe />
+  </React.StrictMode>
+);
+
 reportWebVitals();
