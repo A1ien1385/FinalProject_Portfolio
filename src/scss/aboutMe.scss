@@ -1,4 +1,29 @@
-.about_author__title
+.about_author
 {
-    color: $base-color;
+    display: flex;
+
+    .about_author__photo
+    { 
+       margin: 30px; 
+       width: 150px;
+       height: 150px;
+       background-color: red;
+       border-radius: 50%;
+        
+    }
+
+    .about_author__text  
+      {
+          width: 50%;
+            .about_author__title
+            {
+             color: $base-color; 
+            }
+           
+            .about_author__description
+            {
+             color: $second-color;
+            } 
+        
+      }
 }
