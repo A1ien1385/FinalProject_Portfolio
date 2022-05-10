@@ -3,7 +3,7 @@ import './scss/main.scss';
 
 function Nav() {
   return (
-    <div className="App">
+    <>
       <div className='baner'><div className='img'></div> </div>
       <header className="App-header">
         <a className='header-section' href='#'>O mnie</a>
@@ -15,7 +15,7 @@ function Nav() {
         <a className='header-section' href='#'>Rysunki i szkice</a>
         <a className='header-section' href='#'>Kontakt</a>
       </header>
-    </div>
+    </>
   );
 }
 

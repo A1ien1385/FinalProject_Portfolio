@@ -1,4 +1,6 @@
 body
 {
     background-color: darken($color: $base-color, $amount: 45%);
+    overflow-x: hidden;
+    height: 200vh;
 }
