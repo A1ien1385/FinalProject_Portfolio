@@ -1,6 +1,6 @@
 function AboutMe() {
     return (
-      <div className="about_author">
+      <div id="about_author" className="about_author">
           <div className="about_author__photo"></div>
           <div className="about_author__text">
               <h1 className='about_author__title'>O mnie</h1>
