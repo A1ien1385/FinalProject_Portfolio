@@ -1,6 +1,6 @@
 .baner
 {
-    font-family: 'Dancing Script';
+    font-family: $DancingScript;
     .img
     {
      background-image: url('../img/baner.png');
@@ -19,7 +19,7 @@
     -webkit-box-shadow: 0px 0px 47px 4px rgba(255, 153, 224, 0.8);
     -moz-box-shadow: 0px 0px 47px 4px rgba(255, 153, 224, 0.8);
     box-shadow: 0px 0px 47px 4px rgba(255, 153, 224, 0.8);
-    font-family: 'Dancing Script';
+    font-family: $DancingScript;
 
    
 
