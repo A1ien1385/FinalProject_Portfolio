@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Nav from './Nav';
 import AboutMe from './aboutMe'
+import Slider from './slider';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -18,6 +19,13 @@ const aboutMe = ReactDOM.createRoot(document.getElementById('aboutMe'));
 aboutMe.render(
   <React.StrictMode>
     <AboutMe />
+  </React.StrictMode>
+);
+
+const slider = ReactDOM.createRoot(document.getElementById('slider'));
+slider.render(
+  <React.StrictMode>
+    <Slider />
   </React.StrictMode>
 );
 
