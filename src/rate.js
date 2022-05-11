@@ -3,34 +3,35 @@ import "./scss/main.scss";
 
 export function Rate() {
     const [blueState, setBlueState] = useState(false);
-    const [blueColor, setBlueColor] = useState("grey");
+    const [shadowColor, setShadowColor] = useState("");
+    const [color, setColor] = useState("grey");
     const [redState, setRedState] = useState(true);
-    const [redColor, setRedColor] = useState("grey");
+    const [txt, setTxt] = useState("Like it?")
 
     function handleCLick()
     {
         setBlueState(blueState => !blueState);
         if (blueState === false)
         {
-            setBlueColor("blue");
-            setRedColor("grey")
+            setShadowColor(`0px 0px 24px 11px blue`);
+            setColor("blue");
+            setTxt("Like it!")
         }
 
         else
         {
-            setBlueColor("grey");
-            setRedColor("red");
+            setShadowColor(`0px 0px 24px 11px red`);
+            setColor("red");
+            setTxt("Dislike it!")
         }
     }
 
-    let toggleClass = blueState ? ' active_blue': null;
 
 
     return (
           
-         <div className='hand_box' onClick={handleCLick}>
-             <p className="thumb thumb_up"  style={{color: blueColor, width: "50px", height: "50px"}}>Like!</p>
-             <p className="thumb thumb_down" style={{color: redColor, width: "50px", height: "50px"}}>Dislike!</p>
+         <div className='hand_box' style={{boxShadow: shadowColor}} onClick={handleCLick}>
+             <span className="thumb"  style={{color: color}}>{txt}</span>
          </div>
          
       );
