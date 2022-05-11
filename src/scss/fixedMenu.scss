@@ -1,6 +1,43 @@
 
-
-.menu_box_active
+.fixed_menu_element
 {
-    left: 0;
+    position: absolute;
+     top: 10px; 
+     left: 10px; 
+     color: white;
+}
+
+.fixed_menu_button
+{
+    
+    font-family: $Cormorant;
+    font-weight: 800;
+    font-size: 20px;
+    width: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid $second-color;
+    position: fixed; 
+    left: 25px; 
+    top: 90px;
+    cursor: pointer;  
+    margin-left: 30px;
+    transition: .3s;
+      
+}
+
+.fixed_menu_button:hover
+{
+    border-bottom: 40px solid lighten($color: $second-color, $amount: 30%);
+}
+
+
+.fixed_menu_txt
+{
+    position: fixed;
+    left: 0; 
+    top: 110px;
+    margin-left: 30px;
+    margin-top: 25px;
+    color: lighten($color: $base-color, $amount: 20%);
 }
