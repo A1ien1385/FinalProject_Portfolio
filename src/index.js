@@ -6,6 +6,7 @@ import AboutMe from './aboutMe'
 import Slider from './slider';
 import FixedMenu from './fixedMenu';
 import  Clock  from './date';
+import AnimationGSAP from './gsapAnimation';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -42,6 +43,13 @@ const clock = ReactDOM.createRoot(document.getElementById('clock'));
 clock.render(
   <React.StrictMode>
     <Clock />
+  </React.StrictMode>
+);
+
+const animationGSAP = ReactDOM.createRoot(document.getElementById('animationGSAP'));
+animationGSAP.render(
+  <React.StrictMode>
+    <AnimationGSAP />
   </React.StrictMode>
 );
 
