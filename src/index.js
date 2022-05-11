@@ -4,6 +4,7 @@ import './index.css';
 import Nav from './Nav';
 import AboutMe from './aboutMe'
 import Slider from './slider';
+import FixedMenu from './fixedMenu';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -26,6 +27,13 @@ const slider = ReactDOM.createRoot(document.getElementById('slider'));
 slider.render(
   <React.StrictMode>
     <Slider />
+  </React.StrictMode>
+);
+
+const fixedMenu = ReactDOM.createRoot(document.getElementById('fixedMenu'));
+fixedMenu.render(
+  <React.StrictMode>
+    <FixedMenu />
   </React.StrictMode>
 );
 
