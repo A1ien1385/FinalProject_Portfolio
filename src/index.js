@@ -5,6 +5,7 @@ import Nav from './Nav';
 import AboutMe from './aboutMe'
 import Slider from './slider';
 import FixedMenu from './fixedMenu';
+import  Clock  from './date';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -34,6 +35,13 @@ const fixedMenu = ReactDOM.createRoot(document.getElementById('fixedMenu'));
 fixedMenu.render(
   <React.StrictMode>
     <FixedMenu />
+  </React.StrictMode>
+);
+
+const clock = ReactDOM.createRoot(document.getElementById('clock'));
+clock.render(
+  <React.StrictMode>
+    <Clock />
   </React.StrictMode>
 );
 
