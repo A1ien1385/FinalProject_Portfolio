@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import { ReactComponent as Scene } from './img/cemetery.svg'
 import './scss/main.scss';
 import { TweenMax, TimelineMax  } from 'gsap';
+import { Rate } from "./rate";
 
 function AnimationGSAP() {
     const wrapper = useRef(null);
@@ -81,10 +82,14 @@ function AnimationGSAP() {
     });
 
     return (
+        <>
+        <h1 id='VideoAndAnimations' className='VideoAndAnimations_title'>Multimedia i animacje</h1>
        <div ref={wrapper} id='animationGSAP' className='sceneGSAP'>
         <Scene/>
       </div>
-        
+       <h2 className='animationGSAP_subtitle'>Animacja wykonana w bibliotece GSAP</h2>
+       <Rate/>
+        </>
     );
   }
   

@@ -1,5 +1,21 @@
 .sceneGSAP
 {
     width: 50%;
-    margin: 200px auto;
+    margin: 50px auto 20px auto;
+}
+
+.VideoAndAnimations_title
+{
+    font-family: $Cormorant;
+    text-align: center;
+    margin-top: 200px;
+    color: lighten($color: $second-color, $amount: 15%); 
+    line-height: 20px;
+}
+
+.animationGSAP_subtitle
+{
+    color: lighten($color: $second-color, $amount: 15%);
+    font-family: $Cormorant;
+    text-align: center;
 }

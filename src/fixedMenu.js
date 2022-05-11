@@ -39,7 +39,7 @@ const menu =
          <div className="fixed_menu" style={menu}>
          <header className="App-header" style={{width: "100%"}}>
         <a className='header-section' href='#about_author'>O mnie</a>
-        <a className='header-section' href='#'>Multimedia i animacje</a>
+        <a className='header-section' href='#VideoAndAnimations'>Multimedia i animacje</a>
         <a className='header-section' href='#'>Grafika cyfrowa</a>
         <a className='header-section' href='#'>Projektowanie graficzne</a>
         <a className='header-section' href='#'>Ilustracje</a>
