@@ -13,9 +13,17 @@
     line-height: 20px;
 }
 
-.animationGSAP_subtitle
+.animationGSAP_subtitle,
+.animationGSAP_link
 {
     color: lighten($color: $second-color, $amount: 15%);
     font-family: $Cormorant;
     text-align: center;
 }
+
+.animationGSAP_link
+{
+    font-size: 16px;
+    color: lighten($color: $second-color, $amount: 20%);
+}
+
