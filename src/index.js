@@ -7,6 +7,7 @@ import Slider from './slider';
 import FixedMenu from './fixedMenu';
 import  Clock  from './date';
 import AnimationGSAP from './gsapAnimation';
+import VideoSection from './videoSection';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -50,6 +51,13 @@ const animationGSAP = ReactDOM.createRoot(document.getElementById('animationGSAP
 animationGSAP.render(
   <React.StrictMode>
     <AnimationGSAP />
+  </React.StrictMode>
+);
+
+const videoSection = ReactDOM.createRoot(document.getElementById('videoSection'));
+videoSection.render(
+  <React.StrictMode>
+    <VideoSection />
   </React.StrictMode>
 );
 
