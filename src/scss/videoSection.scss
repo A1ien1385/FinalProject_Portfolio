@@ -19,47 +19,37 @@ figure {
         color: lighten($color: $second-color, $amount: 15%);
         font-family: $Cormorant;
         text-align: center;
-        left: 48%;
+        left: 50%;
         transform: translateX(-55%);
         position: absolute;
 
         @media (min-width: 360px) and (max-width: 800px)
         {
-            bottom: 1%;
+            bottom: -20%;
         }
 
         @media (min-width: 801px) and (max-width: 1366px)
+        {
+            bottom: 1%;
+        }
+
+        @media (min-width: 1367px)
         {
             bottom: 10%;
         }
 
-        @media (min-width: 1367px)
-        {
-            bottom: 16.5%;
-        }
+           span 
+           {
+                font-size: 16px; 
+           }
       } 
 
-      .animationAdobe_rate
+      .animationGSAP_rate
       {
-          position: absolute;
-          left: 47%;
-          transform: translateX(-55%);
-  
-          @media (min-width: 360px) and (max-width: 800px)
-        {
-            bottom: 1%;
-        }
-
-        @media (min-width: 801px) and (max-width: 1366px)
-        {
-            bottom: 5%;
-        }
-
-        @media (min-width: 1367px)
-        {
-            bottom: 16%;
-        }
+          position: relative;
+          right: 2%;
       }
+    
   }
 
   

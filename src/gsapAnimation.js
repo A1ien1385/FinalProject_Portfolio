@@ -87,10 +87,8 @@ function AnimationGSAP() {
        <div ref={wrapper} id='animationGSAP' className='sceneGSAP'>
         <Scene/>
       </div>
-       <h2 className='animationGSAP_subtitle'>Animacja wykonana w bibliotece GSAP <a className='animationGSAP_link' href='https://github.com/A1ien1385/Animations-GSAP'><br/>Więcej moich animacji w GSAP znajdziesz tutaj</a></h2>
-       <Rate/>
-	   
-        </>
+       <h2 className='animationGSAP_subtitle'>Animacja wykonana w bibliotece GSAP <a className='animationGSAP_link' href='https://github.com/A1ien1385/Animations-GSAP'>  <br/>Więcej moich animacji w GSAP znajdziesz tutaj</a></h2>
+       </>
     );
   }
   
