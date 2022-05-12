@@ -23,7 +23,7 @@
     cursor: pointer;  
     margin-left: 30px;
     transition: .3s;
-      
+    z-index: 999;  
 }
 
 .fixed_menu_button:hover
@@ -40,4 +40,9 @@
     margin-left: 30px;
     margin-top: 25px;
     color: lighten($color: $base-color, $amount: 20%);
+}
+
+.fixed_menu 
+{
+    z-index: 999;
 }
