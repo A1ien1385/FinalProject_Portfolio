@@ -8,6 +8,7 @@ import FixedMenu from './fixedMenu';
 import  Clock  from './date';
 import AnimationGSAP from './gsapAnimation';
 import VideoSection from './videoSection';
+import GallerySections from './gallerySections';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -59,6 +60,13 @@ videoSection.render(
   <React.StrictMode>
     <VideoSection />
   </React.StrictMode>
+);
+
+const gallerySections = ReactDOM.createRoot(document.getElementById('gallerySections'));
+gallerySections.render(
+  <React.StrictMode>
+    <GallerySections />
+  </React.StrictMode>  
 );
 
 reportWebVitals();
