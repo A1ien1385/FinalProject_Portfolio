@@ -11,7 +11,8 @@
     transform: translateX(-50%);
     display: flex;
     margin: 10px 0;
-    border: 1px solid $base-color
+    border: 1px solid $base-color;
+    z-index: 11000;
 }
 
 
