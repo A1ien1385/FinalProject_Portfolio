@@ -3,8 +3,10 @@
     position: fixed;
     font-family: $Cormorant;
     top: 15%;
-    right: 10%;
+    right: 1%;
     color: $base-color;
+    text-align: right;
+    z-index: 1000;
     
 
     .weather_title
@@ -12,4 +14,26 @@
         font-size: 20px;
         color: $base-color;
     }
+}
+
+.formBtn
+{
+    font-family: $Cormorant;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: $base-color;
+    color: darken($color: $second-color, $amount: 50%);
+    height: 25px;
+    margin-left: .7rem;
+    border-radius: 20px;
+    
+}
+
+.formInput
+{
+    font-size: 1em;
+    font-family: $Cormorant;
+    background-color: lighten($color: $base-color, $amount: 30%);
+    color: darken($color: $second-color, $amount: 50%);
+    border: 0;
 }

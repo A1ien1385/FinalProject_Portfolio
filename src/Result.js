@@ -13,7 +13,7 @@ const Result = (props) => {
         const sunsetTime = new Date(sunset * 1000).toLocaleTimeString();
         content = (
             <div>
-           <h3>{`Search for city ${city}:`}</h3>
+           <h3>{`Search for city: ${city}`}</h3>
            <h4>{`Temperature: ${temp}`}</h4>
            <h4>{`Sunrise: ${sunriseTime}`}</h4>
            <h4>{`Sunset: ${sunsetTime}`}</h4>
