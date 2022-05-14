@@ -6,6 +6,7 @@ import AboutMe from './aboutMe'
 import Slider from './slider';
 import FixedMenu from './fixedMenu';
 import  Clock  from './date';
+import Weather from './weather';
 import AnimationGSAP from './gsapAnimation';
 import VideoSection from './videoSection';
 import GallerySections from './gallerySections';
@@ -45,6 +46,13 @@ const clock = ReactDOM.createRoot(document.getElementById('clock'));
 clock.render(
   <React.StrictMode>
     <Clock />
+  </React.StrictMode>
+);
+
+const weather = ReactDOM.createRoot(document.getElementById('weather'));
+weather.render(
+  <React.StrictMode>
+    <Weather />
   </React.StrictMode>
 );
 

@@ -10,6 +10,7 @@ const toggleClass = () =>
    setActive(!isActive);
 };
 
+
     return (
           <>
           <h1 id="digital_art" className="art_sections_title">Grafika cyfrowa</h1>

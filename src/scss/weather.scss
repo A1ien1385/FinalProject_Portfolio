@@ -1,0 +1,15 @@
+.weather_box
+{
+    position: fixed;
+    font-family: $Cormorant;
+    top: 15%;
+    right: 10%;
+    color: $base-color;
+    
+
+    .weather_title
+    {
+        font-size: 20px;
+        color: $base-color;
+    }
+}
