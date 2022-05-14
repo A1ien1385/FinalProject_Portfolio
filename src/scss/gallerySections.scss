@@ -1,14 +1,22 @@
 section
 {
-    width: 50%;
-    height: 600px;
-    background-color: $bg-color;
+    width: 50vw;
+    height: 60vh;
     margin: 100px auto;
+    background-color: darken($color: $base-color, $amount: 40%);
     cursor: pointer;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-   
+    transition: .3s;
+}
+
+section:hover
+{
+    height: 80vh;
+    width: 60vw;
+    background-color: darken($color: $base-color, $amount: 20%);
+    border: 3px solid lighten($color: $base-color, $amount: 30%);
 }
 
 .activeArt
