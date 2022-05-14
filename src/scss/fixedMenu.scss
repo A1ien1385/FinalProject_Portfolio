@@ -23,7 +23,8 @@
     cursor: pointer;  
     margin-left: 30px;
     transition: .3s;
-    z-index: 999;  
+    z-index: 12000; 
+     
 }
 
 .fixed_menu_button:hover
@@ -44,5 +45,5 @@
 
 .fixed_menu 
 {
-    z-index: 999;
+    z-index: 12000; 
 }
