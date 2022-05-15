@@ -26,6 +26,7 @@ export function GallerySections(props) {
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=15B4v9lY9IUe07tE-zyWmNTjKLbpve0sF')"}}></section>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1oOV5b6gVcDRZoKYPPgdT4_LLYL-ASE6O')"}}></section>
           <h1 id="graphic_design" className="art_sections_title">Projektowanie graficzne</h1>
+          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1mNM85mq8BPpf9k8VhPt0vBZcdMC954Au')"}}></section>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=13quCBsYHWqS5fpsSHgGyYp2GcSiNfOpQ')"}}></section>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1kmVxgFLqQryY_-61Z-WVEzuRkm7NPb7h')"}}></section>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1C9H-K32orXnfqUaUfYKZZSF2-RDg7ejd')"}}></section>
