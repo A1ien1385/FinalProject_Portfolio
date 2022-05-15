@@ -2,9 +2,10 @@
 Moja aplikacja zaliczeniowa zawierająca projekty graficzne i apikację pogodową.
 My final app contains my art-works and weather app.
 Used technologies:
-JavaScript (React, GSAP)
-CSS (SCSS)
-Fetch
+JavaScript (React, GSAP),
+CSS (SCSS),
+Fetch,
+RWD (Media Querries)
 
 
 # Getting Started with Create React App
