@@ -12,13 +12,13 @@ const CommList = (props) => {
             <>
             <div className="commForm_subtitle">
                 <h2>Lista komentarzy</h2>
-                   {activeTasks}
+                   {activeTasks.length > 0 ? activeTasks : <p>Brak komentarzy</p>}
                 </div>
 
                 <hr/>
 
-                <div className="commForm_subtitle super">
-                <h2>Komentarze wyróżnione</h2>
+                <div className="commForm_subtitle">
+                <h2>Komentarze wyróżnione: <em>({done.length})</em> </h2>
                   {doneTasks}
                 </div>
              </>   

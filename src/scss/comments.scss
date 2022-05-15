@@ -5,3 +5,54 @@
     font-size: 24px;
     text-align: center;
 }
+
+.addCommElement
+{
+    margin: 10px;
+}
+
+.addBtn
+{
+    font-family: $Cormorant;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: $base-color;
+    color: darken($color: $second-color, $amount: 50%);
+    height: 35px;
+    margin-left: .7rem;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.addBtn:hover
+{
+    background-color: lighten($color: $base-color, $amount: 20%);
+}
+
+.addInput 
+{
+    font-size: 1em;
+    font-family: $Cormorant;
+    background-color: lighten($color: $base-color, $amount: 30%);
+    color: darken($color: $second-color, $amount: 50%);
+    border: 0;
+}
+
+.super,
+.del 
+{
+    font-family: $Cormorant;
+    height: 30px;
+    font-size: 20px;
+    background-color: $base-color;
+    color: darken($color: $second-color, $amount: 50%);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.super:hover,
+.del:hover
+{
+    background-color: lighten($color: $base-color, $amount: 20%);
+}
