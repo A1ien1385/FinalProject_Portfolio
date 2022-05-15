@@ -4,13 +4,8 @@ import { Rate } from "./rate";
 import { Cube } from "./cube";
 
 export function GallerySections(props) {
-// const [isActive, setActive] = useState(false);   
+   
 
-// const toggleClass = () =>
-// {
-//    setActive(!isActive);
-// };
-// <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1aeGaTZoetIyARLay9b46o4NrtiWivVrA')"}} onClick={toggleClass} className={isActive ? 'activeArt' : null}></section>
 
     return (
           <>

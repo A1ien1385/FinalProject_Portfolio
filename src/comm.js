@@ -1,8 +1,15 @@
 import './scss/main.scss';
 
-const Comm = () => {
+const Comm = (props) => {
+
+const {text, date, id} = props.task;
+
     return (
-            <div className="commForm_subtitle"><h3>Komentarz</h3></div>
+            <div className="commForm_subtitle">
+            <p>{text}, {date} </p>
+            <button onClick={() => props.change(id)}>Wyróżnij</button>
+            <button onClick={() => props.delete(id)}>X</button>
+            </div>
         )
     
 }
