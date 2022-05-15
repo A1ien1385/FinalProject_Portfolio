@@ -10,6 +10,7 @@ import Weather from './weather';
 import AnimationGSAP from './gsapAnimation';
 import VideoSection from './videoSection';
 import GallerySections from './gallerySections';
+import Comments from './comments';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -74,6 +75,13 @@ const gallerySections = ReactDOM.createRoot(document.getElementById('gallerySect
 gallerySections.render(
   <React.StrictMode>
     <GallerySections />
+  </React.StrictMode>  
+);
+
+const comments = ReactDOM.createRoot(document.getElementById('comments'));
+comments.render(
+  <React.StrictMode>
+    <Comments/>
   </React.StrictMode>  
 );
 

@@ -45,7 +45,7 @@ const menu =
         <a className='header-section' href='#graphic_design'>Projektowanie graficzne</a>
         <a className='header-section' href='#illustration'>Ilustracje</a>
         <a className='header-section' href='#drawings'>Rysunki i szkice</a>
-        <a className='header-section' href='#'>Kontakt</a>
+        <a className='header-section' href='#comments'>Komentarze</a>
       </header>
          </div>
          <div className="fixed_menu_button" onClick={handleClickFixedMenu}></div>
