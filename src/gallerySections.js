@@ -14,6 +14,18 @@ export function GallerySections(props) {
 
     return (
           <>
+          <h1 id="graphic3D" className="art_sections_title">Grafika 3D</h1>
+          <Cube/>
+          <h1 id="graphic3D" className="art_sections_title">Animacja Cube stworzona w SASS</h1>
+          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1ZoX6GwwlW96ai9BJ8x4uaw18zEF6UJAy')"}}></section>
+          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1OieIg4o50jHkODkpkqacfPkghgQ3rlLM')"}}></section>
+          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1RoWJpXxWdOIhnqT-VJl3mt7-R1qoiGa-')"}}></section>
+          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1fybQJyrw7QWXvtOxAWSV6tQCm7Lo9mzh')"}}></section>
+          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1LDSkg9HXjAzBwxSfkRPwTEjtCURWIzAG')"}}></section>
+          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1pMjywnZ8IxxNBsBcZ5m8MQNSTVFat4xp')"}}></section>
+          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1xbN9jnS8lgV6EzjUJxfk9FgyNyMLfiD0')"}}></section>
+          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1jobL4J3Gxv2aWiAQMmDB7xrCvrLSTZ3N')"}}></section>
+          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1-tLTL4fjYxKUfKXuggcc6cVIDcnhDliT')"}}></section>
           <h1 id="digital_art" className="art_sections_title">Grafika cyfrowa</h1>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1aeGaTZoetIyARLay9b46o4NrtiWivVrA')"}}></section>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1HPbnykwyZTALqPvS7AScva3eTwTMqwCV')"}}></section>
@@ -58,18 +70,6 @@ export function GallerySections(props) {
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1iiX-nfsIqC6TPNaGMk6Pa1f5T2IMCP7S')"}}></section>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=16Ce-OwrI0HjJwBVaHDyPzYYm2xEEyM2q')"}}></section>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=14NrFE1DNZqIOKOgEK_D4E-DtFBWM7_fA')"}}></section>
-          <h1 id="graphic3D" className="art_sections_title">Grafika 3D</h1>
-          <Cube/>
-          <h1 id="graphic3D" className="art_sections_title">Animacja Cube stworzona w SASS</h1>
-          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1ZoX6GwwlW96ai9BJ8x4uaw18zEF6UJAy')"}}></section>
-          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1OieIg4o50jHkODkpkqacfPkghgQ3rlLM')"}}></section>
-          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1RoWJpXxWdOIhnqT-VJl3mt7-R1qoiGa-')"}}></section>
-          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1fybQJyrw7QWXvtOxAWSV6tQCm7Lo9mzh')"}}></section>
-          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1LDSkg9HXjAzBwxSfkRPwTEjtCURWIzAG')"}}></section>
-          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1pMjywnZ8IxxNBsBcZ5m8MQNSTVFat4xp')"}}></section>
-          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1xbN9jnS8lgV6EzjUJxfk9FgyNyMLfiD0')"}}></section>
-          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1jobL4J3Gxv2aWiAQMmDB7xrCvrLSTZ3N')"}}></section>
-          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1-tLTL4fjYxKUfKXuggcc6cVIDcnhDliT')"}}></section>
           <h1 id="drawings" className="art_sections_title">Rysunki i szkice</h1>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=130caqJBabUDJyutYa8ipdfnIDauP8fvt')"}}></section>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1JQ23uigrGJKNCuQm6BPqSJWXL_Rb8TO_')"}}></section>
