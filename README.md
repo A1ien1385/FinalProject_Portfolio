@@ -1,3 +1,12 @@
+# Opis/Description
+Moja aplikacja zaliczeniowa zawierająca projekty graficzne i apikację pogodową.
+My final app contains my art-works and weather app.
+Used technologies:
+JavaScript (React, GSAP)
+CSS (SCSS)
+Fetch
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
