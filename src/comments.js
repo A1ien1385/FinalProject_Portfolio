@@ -12,19 +12,15 @@ counter = 2
      {
        id: 0,
        text: 'Great artworks. Good job',
-      //  date: '2022-06-06',
-       important: true,
        active: true,
-       finishDate: null
+     
      },
      
      {
       id: 1,
       text: 'Well Done!',
-      // date: '2023-01-12',
-      important: true,
       active: true,
-      finishDate: null
+      
     }
 
    ]
@@ -55,7 +51,6 @@ counter = 2
 
      addTask = (text) =>
      {
-       console.log("Dodany komentarz");
        
        const task = {
          id: this.counter,

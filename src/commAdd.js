@@ -29,7 +29,6 @@ class CommAdd extends Component {
 
       handleClick = (e) => 
       {
-        console.log("Dodaj");
         const {text} = this.state; 
         const add = this.props.add(text);
         if(add) {
@@ -50,7 +49,7 @@ class CommAdd extends Component {
             <div className="commForm_subtitle">
               <input className='addCommElement addInput' type="text" placeholder='Dodaj komentarz' value={this.state.text} onChange={this.handleText} /> <br/>
               <label className='addCommElement' htmlFor='date'>Data: </label>
-              {/* <input className='addCommElement addInput' type="date" value={this.state.date} min={this.minDate} onChange={this.handleDate}/> <br/> */}
+              
               <button onClick={this.handleClick} className='addCommElement addBtn'>Dodaj komentarz</button>
             </div>
             </>
