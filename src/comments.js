@@ -6,13 +6,13 @@ import CommList from './commList';
 
 
 class Comments extends Component {
-
+counter = 2
  state = {
    tasks: [
      {
        id: 0,
        text: 'Great artworks. Good job',
-       date: '2022-06-06',
+      //  date: '2022-06-06',
        important: true,
        active: true,
        finishDate: null
@@ -21,7 +21,7 @@ class Comments extends Component {
      {
       id: 1,
       text: 'Well Done!',
-      date: '2023-01-12',
+      // date: '2023-01-12',
       important: true,
       active: true,
       finishDate: null
@@ -51,16 +51,33 @@ class Comments extends Component {
     })
      this.setState({
        tasks: tasks
-     }) 
+     })}
 
-  }
+     addTask = (text) =>
+     {
+       console.log("Dodany komentarz");
+       
+       const task = {
+         id: this.counter,
+         text: text
+        }
+
+       this.counter++
+       console.log(task);
+
+       this.setState(prevState =>({
+          tasks: [...prevState.tasks, task]
+       }))
+
+       return true
+     }
 
   render()
   {  
   return (
     <>
      <h1 id="comments" className="art_sections_title">Komentarze</h1>
-     <CommAdd/>
+     <CommAdd add={this.addTask}/>
      <CommList tasks={this.state.tasks} delete={this.deleteTask} change={this.changeTaskStatus}/>
     </>
   )};
