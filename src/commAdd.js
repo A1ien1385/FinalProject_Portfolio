@@ -5,8 +5,7 @@ class CommAdd extends Component {
 
   minDate = new Date().toISOString().slice(0,10)
      state = { 
-        text: '',
-        date: this.minDate        
+        text: "",
       } 
 
       handleText = (e) =>
@@ -18,14 +17,6 @@ class CommAdd extends Component {
         )
       }
 
-      handleDate = (e) =>
-      {
-       this.setState(
-         {
-          date: e.target.value 
-         }
-       ) 
-      }
 
       handleClick = (e) => 
       {
@@ -34,7 +25,7 @@ class CommAdd extends Component {
         if(add) {
           this.setState(
             {
-              text: '',
+              text: ''
               
             }
           )

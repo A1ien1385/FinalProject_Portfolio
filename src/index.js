@@ -11,6 +11,7 @@ import AnimationGSAP from './gsapAnimation';
 import VideoSection from './videoSection';
 import GallerySections from './gallerySections';
 import Comments from './comments';
+import Footer from './footer';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -82,6 +83,13 @@ const comments = ReactDOM.createRoot(document.getElementById('comments'));
 comments.render(
   <React.StrictMode>
     <Comments/>
+  </React.StrictMode>  
+);
+
+const footer = ReactDOM.createRoot(document.getElementById('footer'));
+footer.render(
+  <React.StrictMode>
+    <Footer/>
   </React.StrictMode>  
 );
 
