@@ -59,7 +59,8 @@ counter = 2
        
        const task = {
          id: this.counter,
-         text: text
+         text: text,
+         active: true
         }
 
        this.counter++
