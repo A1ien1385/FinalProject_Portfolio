@@ -1,44 +1,38 @@
-section
-{
-    width: 50vw;
-    height: 60vh;
-    margin: 100px auto;
-    background-color: darken($color: $base-color, $amount: 40%);
-    cursor: pointer;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    transition: .3s;
+section {
+  width: 50vw;
+  height: 60vh;
+  margin: 100px auto;
+  background-color: darken($color: $base-color, $amount: 40%);
+  cursor: pointer;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s;
 }
 
-section:hover
-{
-    height: 80vh;
-    width: 60vw;
-    background-color: darken($color: $base-color, $amount: 20%);
-    border: 3px solid lighten($color: $base-color, $amount: 30%);
+section:hover {
+  height: 80vh;
+  width: 60vw;
+  background-color: darken($color: $base-color, $amount: 20%);
+  border: 3px solid lighten($color: $base-color, $amount: 30%);
 }
 
-.activeArt
-{
-    position: fixed;
-    z-index: 1100;
-    margin: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-    background-color: $bg-color;
-
+.activeArt {
+  position: fixed;
+  z-index: 1100;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background-color: $bg-color;
 }
 
-.art_sections_title
-{
-    font-family: $Cormorant;
-    color: lighten($color: $second-color, $amount: 15%); 
-    font-size: 2rem;
-    text-align: center;
-    letter-spacing: 1px;
+.art_sections_title {
+  font-family: $Cormorant;
+  color: lighten($color: $second-color, $amount: 15%);
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
 }
-

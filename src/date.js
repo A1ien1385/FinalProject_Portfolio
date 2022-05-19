@@ -1,31 +1,24 @@
 import { useState, useEffect } from "react";
 import "./scss/main.scss";
 
- function App() {
-    
-    const [data, setData] = useState(new Date());
+function Clock() {
+  const [data, setData] = useState(new Date());
 
-    useEffect(() => {
-        const timeoutId = setInterval(function() {
-          setData(new Date());
-        }, 1_000);
-        
-            return () => {
-              clearTimeout(timeoutId);
-            }
-          }, []);
+  useEffect(() => {
+    const timeoutId = setInterval(function () {
+      setData(new Date());
+    }, 1_000);
 
-    return (
-            <>
-                <p className="clock">{data.toLocaleDateString()} : {data.toLocaleTimeString()}</p>
-            </>
-        )
-    }
-    
-    function Clock() {
-        return <App />;
-      }
-      
-      
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, []);
 
-   export default Clock
+  return (
+    <p className="clock">
+      {data.toLocaleDateString()} : {data.toLocaleTimeString()}
+    </p>
+  );
+}
+
+export default Clock;
