@@ -7,6 +7,8 @@ CSS (SCSS),
 Fetch,
 RWD (Media Querries)
 
+Link to AWS:https://main.d1fnxddi9wxu6z.amplifyapp.com/
+
 
 # Getting Started with Create React App
 
