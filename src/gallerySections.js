@@ -63,7 +63,7 @@ export function GallerySections(props) {
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1VomAV_DrtFVkieacpY_MUskTxXug-TQM')"}}></section>
           <h1 id="illustration" className="art_sections_title">Ilustracje</h1>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1iiX-nfsIqC6TPNaGMk6Pa1f5T2IMCP7S')"}}></section>
-          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=16Ce-OwrI0HjJwBVaHDyPzYYm2xEEyM2q')"}}></section>
+          
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=14NrFE1DNZqIOKOgEK_D4E-DtFBWM7_fA')"}}></section>
           <h1 id="drawings" className="art_sections_title">Rysunki i szkice</h1>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=130caqJBabUDJyutYa8ipdfnIDauP8fvt')"}}></section>
@@ -71,7 +71,7 @@ export function GallerySections(props) {
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1f-5yKkNzk6skoLTLwzvDtSwtpkRLw3zp')"}}></section>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1JvITCuKzTMroLGgQ0j65VxblRsvXijER')"}}></section>
           <section style={{backgroundImage: "url('https://drive.google.com/uc?id=13UWNFVv1rHEwSr8ahWgHy9p3oa6kRL1D')"}}></section>
-          <section style={{backgroundImage: "url('https://drive.google.com/uc?id=1pj5or0DPQRno5aLk2Zsp3kYy5fXLPqFc')"}}></section>
+          
          </>
       );
    }
